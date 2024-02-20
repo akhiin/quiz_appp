@@ -21,13 +21,14 @@ class _SplashState extends State<Splash> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.white,
+      backgroundColor: Colors.blue[200],
       body: Column(
         mainAxisAlignment:MainAxisAlignment.center,
         children:[
           Center(
             child: Image.network(
-                'https://www.tv2.no/quiz/assets/tv2-quiz-share.jpg'),
+                'https://png.pngtree.com/png-vector/20230120/ourmid/pngtree-quiz-logo-with-speech-bubble-symbols-png-image_6568572.png'),
+
           ),
         ],
       ),
